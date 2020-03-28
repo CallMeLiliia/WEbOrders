@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15939" started-at="2020-03-26T21:31:12 EDT" finished-at="2020-03-26T21:31:28 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15939" started-at="2020-03-26T21:31:12 EDT" finished-at="2020-03-26T21:31:28 EDT">
+      <class name="io.duotech.tests.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="setUpSuite" is-config="true" duration-ms="234" started-at="2020-03-26T21:31:12 EDT" finished-at="2020-03-26T21:31:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="setUp" is-config="true" duration-ms="8687" started-at="2020-03-26T21:31:12 EDT" finished-at="2020-03-26T21:31:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPOMPattern()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="loginPOMPattern" duration-ms="512" started-at="2020-03-26T21:31:21 EDT" finished-at="2020-03-26T21:31:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPOMPattern -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="tearDown" is-config="true" duration-ms="569" started-at="2020-03-26T21:31:22 EDT" finished-at="2020-03-26T21:31:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPOMPattern status=SUCCESS method=LoginTest.loginPOMPattern()[pri:0, instance:io.duotech.tests.LoginTest@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="setUp" is-config="true" duration-ms="5316" started-at="2020-03-26T21:31:22 EDT" finished-at="2020-03-26T21:31:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPOMPatternNegative()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="loginPOMPatternNegative" duration-ms="252" started-at="2020-03-26T21:31:27 EDT" finished-at="2020-03-26T21:31:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPOMPatternNegative -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="tearDown" is-config="true" duration-ms="561" started-at="2020-03-26T21:31:28 EDT" finished-at="2020-03-26T21:31:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPOMPatternNegative status=SUCCESS method=LoginTest.loginPOMPatternNegative()[pri:0, instance:io.duotech.tests.LoginTest@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownSuit()[pri:0, instance:io.duotech.tests.LoginTest@7f416310]" name="tearDownSuit" is-config="true" duration-ms="282" started-at="2020-03-26T21:31:28 EDT" finished-at="2020-03-26T21:31:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuit -->
+      </class> <!-- io.duotech.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
